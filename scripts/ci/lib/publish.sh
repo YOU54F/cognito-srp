@@ -15,5 +15,5 @@ echo "--> Releasing version ${VERSION}"
 
 echo "--> Releasing artifacts"
 echo "    Publishing cypress-slack-reporter@${VERSION}..."
-npm publish --public-access --tag latest
+npm publish --access-public --tag latest
 echo "    done!"
