@@ -14,6 +14,6 @@ echo "--> Preparing npmrc file"
 echo "--> Releasing version ${VERSION}"
 
 echo "--> Releasing artifacts"
-echo "    Publishing cypress-slack-reporter@${VERSION}..."
-npm publish --access-public --tag latest
+echo "    Publishing cognito-srpr@${VERSION}..."
+npm publish --access public --tag latest
 echo "    done!"
