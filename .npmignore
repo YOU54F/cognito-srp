@@ -2,3 +2,4 @@ src/
 .gitignore
 jest.config.json
 tsconfig.json
+.github
