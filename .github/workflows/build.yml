@@ -23,3 +23,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
     - run: yarn install
+    - run: yarn prepublish
+    - run: yarn test
