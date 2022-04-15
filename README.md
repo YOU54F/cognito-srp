@@ -14,13 +14,13 @@ like Cognito, and is therefore compatible with the AWS SDK. Alternatively, use s
 First, install:
 
 ```
-yarn add cognito-srp
+yarn add @you54f/cognito-srp
 ```
 
 Then import. Your starting point will usually be the `UserPool` class:
 
 ```js
-import { UserPool } from 'cognito-srp';
+import { UserPool } from '@you54f/cognito-srp';
 ```
 
 Instantiate a pool, using your pool name:

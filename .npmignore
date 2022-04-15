@@ -3,3 +3,5 @@ src/
 jest.config.json
 tsconfig.json
 .github
+scripts
+.eslint*
