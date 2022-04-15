@@ -122,8 +122,10 @@ const A = challenge.calculateA();
 The server will respond with the server key (`B`), the user's salt, and a secret block.
 The client can then create a session:
 
+where `user_id_for_srp` is the `USER_ID_FOR_SRP` returned in the servers challenge response.
+
 ```js
-const session = challenge.getSession(B, salt);
+const session = challenge.getSession(B, salt, user_id_for_srp);
 ```
 
 Then, the client can calculate the signature as proof that it knows the password:
